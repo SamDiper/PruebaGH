@@ -36,6 +36,3 @@ class ChessGame(tk.Tk):
             self.move_piece(row, col)
                 
 
-    
-chess_game = ChessGame()
-chess_game.mainloop()
