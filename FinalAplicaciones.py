@@ -5,11 +5,6 @@ class ChessGame(tk.Tk):
         super().__init__()
         self.title("Chess Game")
         self.geometry("400x400")
-    #Cambio1
-    def refresh_board(self):
-        for widget in self.winfo_children():
-            widget.destroy()
-        self.create_board()
         
         self.board = [
             ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
